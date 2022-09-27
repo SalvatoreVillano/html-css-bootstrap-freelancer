@@ -1,5 +1,23 @@
 :root{
-    --dark: #2C3E50;
-    --dark-light: #3B546D;
-    --aquagreen: #1ABC9C;
+    --primary-color: #2C3E50;
+    --primary-light: #3B546D;
+    --secondary-color: #1ABC9C;
+}
+
+.bg-first-color{
+    background-color: var(--primary-color);
+}
+
+.bg-secondary-color{
+    background-color: var(--secondary-color);
+}
+
+#avatar{
+    height:200px;
+}
+
+.hr-line{
+        height: 3px;
+        width: 10%;
+        display: inline-block;
 }
